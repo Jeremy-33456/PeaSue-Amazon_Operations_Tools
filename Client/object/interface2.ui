@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Importer</class>
+ <widget class="QMainWindow" name="Importer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>540</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>540</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>540</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>楷体</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Importer</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>913</y>
+      <width>1444</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="command1">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>云端刷新</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="command3">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>10</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>爬取坑位</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="command4">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>10</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>爬取图片</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="command5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>导入库存</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="command6">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>60</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>导入产品数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="command7">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>60</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>导入广告数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="command8">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>60</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>导入利润</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="command9">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>60</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>导入品牌分析</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="command2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>10</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>本地刷新</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="printer">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>521</width>
+      <height>601</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="command0">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>结束会话</string>
+    </property>
+   </widget>
+  </widget>
+  <action name="action_add">
+   <property name="text">
+    <string>添加产品</string>
+   </property>
+  </action>
+  <action name="action_refresh">
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>导入库存</string>
+   </property>
+  </action>
+  <action name="action_storage">
+   <property name="text">
+    <string>库存数据</string>
+   </property>
+  </action>
+  <action name="action_performance">
+   <property name="text">
+    <string>产品数据</string>
+   </property>
+  </action>
+  <action name="action_setting">
+   <property name="text">
+    <string>广告设置</string>
+   </property>
+  </action>
+  <action name="action_data">
+   <property name="text">
+    <string>广告数据</string>
+   </property>
+  </action>
+  <action name="action_profit">
+   <property name="text">
+    <string>利润数据</string>
+   </property>
+  </action>
+  <action name="action_exit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="action_switch">
+   <property name="text">
+    <string>切换</string>
+   </property>
+  </action>
+  <action name="action_import">
+   <property name="text">
+    <string>导入</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
